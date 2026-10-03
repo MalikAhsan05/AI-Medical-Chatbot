@@ -599,12 +599,5 @@ def delete_all_user_conversations(user_id):
     connection.close()
 
     return deleted_count
-
-
-# ============================================================
-# RUN DATABASE INITIALIZATION
-# ============================================================
-
-if __name__ == "__main__":
-
+    
     initialize_database()
